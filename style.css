@@ -6,10 +6,10 @@
 /* dufalt css styes  start*/
 
 .h1-tag{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 800;
     color: black;
-    line-height: 50px;
+    line-height: 80px;
     margin-top: 130px;
     margin-bottom: 30px;
     text-align: center;
@@ -21,8 +21,12 @@
     line-height: 30px;
     text-align: center;
 }
+.image-tag{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
 
-
+}
 
 
 /* dufalt css styes end */
@@ -141,4 +145,83 @@ header{
 }
 .box-p{
     text-align: left;
+}
+
+/* donate  contribute section */
+.section1-container{
+    display: flex;
+    gap: 30px;
+    /* text-align: center; */
+    margin: 100px;
+    
+}
+.section1{
+    width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.leftcolum{
+    text-align: left;
+    /* padding-left: 30px; */
+}
+.leftpadiing{
+    padding-left: 30px;
+}
+
+.donate-image{
+    text-align: left;
+}
+.donate-image2{
+    text-align: left;
+}
+.margin-top{
+    margin-bottom: 30px;
+}
+.input-container{
+    text-align: center;
+    padding: 80px 200px;
+    background-color: #fef4d1;
+    width: 600px;
+    margin: 0 auto;
+
+
+}
+
+.input-container input{
+    height: 54px;
+     border: 0;
+     font-size: 22px;
+     font-weight: 500;
+     padding-left: 10px;
+     margin: 0;
+     margin-right: -5px;
+     border-radius: 5px 0 0 5px;
+
+
+
+}
+.btn-primary2{
+    height: 54px;
+     border: 0;
+     font-size: 22px;
+     font-weight: 500;
+     padding: 0px 20px;
+     margin: 0;
+     background-color: #ff5938;
+     border-radius: 0 5px 5px 0;
+ 
+}
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    margin-top: 50px;
+
+}
+
+footer p{
+    color: white;
+    margin: 10px;
+
 }
